@@ -369,22 +369,5 @@ const newImplementation = await upgrades.prepareUpgrade(proxyAddress, NewManager
 await manager.upgradeTo(newImplementation);
 ```
 
----
 
-## License & Attribution
 
-MIT License — Avalon Labs
-
----
-
-## Next Steps
-
-1. **Audit**: Professional security audit recommended before mainnet
-2. **Frontend**: Build web dashboard with portfolio charts
-3. **Governance**: Implement timelock for parameter changes
-4. **Advanced Features**:
-   - Staking for yield boost
-   - Liquidity mining incentives
-   - Deposit NFT marketplace/lending
-   - Cross-chain deposits via bridges
-5. **Analytics**: On-chain analytics for portfolio tracking
